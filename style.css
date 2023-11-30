@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.password-generator-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section > div {
+  margin-top: 10px;
+}
+.total-char {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 12px;
+}
+#password-length {
+  width: 3vw;
+  padding: 2px;
+}
+.container {
+    color: white;
+  width: 20vw;
+  height:40vh;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+#btn {
+  margin: 2vh 5vw;
+  padding: 8px 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+@media(max-width:700px){
+    .container{
+        width:60%;
+        height:30%;
+        font-size: 15px;
+    }
+    #btn{
+        margin:4vh 5vw;
+        width:80%;
+    }
+}
